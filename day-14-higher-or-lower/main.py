@@ -7,7 +7,6 @@ print('Welcome to higher or lower!')
 
 high_score = 0
 
-
 def game():
     global high_score
 
@@ -22,16 +21,17 @@ def game():
     score = 0
     choices = [get_account(), get_account()]
 
+
     is_playing = True
 
     while is_playing:
         choice_1 = choices[0]
         choice_2 = choices[1]
-
+        choice_2.follo
         user_choice = user_choice = input(
             f'Does {choice_1["name"]} have more or less followers than {choice_2["name"]}? (m/l) \n'
         ).lower()
-        
+
         is_more = choice_1['follower_count'] > choice_2['follower_count']
 
         if (user_choice == 'm' and is_more):
@@ -49,8 +49,11 @@ def game():
     if (score > high_score):
         high_score = score
 
+def main():
+  is_playing = True
 
-is_playing = True
-while is_playing:
-    game()
-    is_playing = input("Play again? 'y/n'") == 'y'
+  while is_playing:
+      game()
+      is_playing = input("Play again? 'y/n'") == 'y'
+
+main()
