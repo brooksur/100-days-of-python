@@ -11,7 +11,3 @@ invitations = []
 for name in invited_names:
     with open(f'Output/ReadyToSend/{name}_invitation.txt', 'w') as new_file:
         new_file.write(starting_letter.replace('[name]', name))
-
-
-
-
