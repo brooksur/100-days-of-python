@@ -31,7 +31,6 @@ while run_game:
             run_game = False
             scoreboard.game_over()
 
-
         state_row = states_frame.loc[states_frame['state'].str.lower() == answer]
 
         # Handle correct answer
