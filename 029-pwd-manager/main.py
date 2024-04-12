@@ -7,6 +7,7 @@ import pyperclip
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
+
 def create_password():
     length = random.randint(12, 18)
     characters = string.ascii_letters + string.digits + string.punctuation
