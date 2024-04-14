@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "email": "test@test.com",
+        "password": "!5nl_g-_:rO!K&Q#["
+    },
+    "asdf": {
+        "email": "asdf",
+        "password": "asdf"
+    },
+    "qwer": {
+        "email": "qwer",
+        "password": "qwer"
+    },
+    "Apple": {
+        "email": "test@mail.com",
+        "password": "asdf"
+    }
+}
